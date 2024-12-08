@@ -97,7 +97,22 @@
             width: 100%;
             border-top: 2px solid #ffcc00; /* Yellow border on top of footer */
         }
-
+        .banner {
+            width: 100%; /* Make the image span the full width */
+            height: auto; /* Maintain the aspect ratio */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            overflow: hidden; /* Crop overflowing parts of the image */
+            margin-bottom: 20px; /* Add some space below the banner */
+        }
+        
+        .banner img {
+            max-width: 100%; /* Ensure the image fits the container */
+            height: auto; /* Maintain the aspect ratio */
+            border-radius: 8px; /* Optional: rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+        }
         /* Table Styles */
         table {
             width: 100%;
