@@ -19,10 +19,11 @@ function convertNumber() {
     const binary = decimal.toString(2);
     const octal = decimal.toString(8);
     const hexadecimal = decimal.toString(16).toUpperCase();
-    document.getElementById('decimal-box').textContent = `decimal: ${binary}`;
-    document.getElementById('binary-box').textContent = `binary: ${binary}`;
-    document.getElementById('octal-box').textContent = `octal: ${octal}`;
-    document.getElementById('hexadecimal-box').textContent = `hexadecimal-box: ${hexadecimal}`;
+
+    document.getElementById('decimal-box').textContent = `Decimal: ${decimal}`;
+    document.getElementById('binary-box').textContent = `Binary: ${binary}`;
+    document.getElementById('octal-box').textContent = `Octal: ${octal}`;
+    document.getElementById('hexadecimal-box').textContent = `Hexadecimal-box: ${hexadecimal}`;
 }
 
 // Submit feedback
